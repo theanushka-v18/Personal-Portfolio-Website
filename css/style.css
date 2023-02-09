@@ -287,7 +287,7 @@ h3 {
     border-radius: 50%;
     position: absolute;
     left: 7.8rem;
-    top: 44rem;
+    top: 49rem;
 }
 
 .education .inter-points {
@@ -297,7 +297,7 @@ h3 {
     border-radius: 50%;
     position: absolute;
     left: 7.8rem;
-    top: 54.3rem;
+    top: 59.3rem;
 }
 .education .highschool-points {
     background-color: var(--primary);
@@ -306,7 +306,7 @@ h3 {
     border-radius: 50%;
     position: absolute;
     left: 7.8rem;
-    top: 64.5rem;
+    top: 69.5rem;
 }
 
 .education .bca {

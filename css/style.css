@@ -181,7 +181,7 @@ header {
     top: 30rem;
     display: flex;
     flex-direction: column;
-    row-gap: 5rem;
+    row-gap: 10rem;
 }
 
 .about-top {
@@ -212,7 +212,7 @@ header {
     border-radius: 5px;
 }
 
-.aboutTop-innerDiv p {
+ p {
     font-size: 1.5rem;
     color: var(--secondary);
     letter-spacing: 0.1rem;
@@ -249,7 +249,7 @@ header {
     margin-bottom: 3rem;
 }
 
-.education h3 {
+h3 {
     text-transform: capitalize;
     font-size: 2rem;
     letter-spacing: 0.2rem;
@@ -356,7 +356,7 @@ header {
     top: 50rem;
     display: flex;
     flex-direction: column;
-    row-gap: 5rem;
+    row-gap: 10rem;
 }
 
 .projects-top {
@@ -385,5 +385,44 @@ header {
     font-size: 1.5rem;
     color: var(--secondary);
     letter-spacing: 0.1rem;
+}
+
+.projects-bottom {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10rem;
+}
+
+.projects {
+    /* border: 1px solid yellow; */
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 10rem;
+}
+
+.projects .img {
+    width: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.projects .img img {
+    width: 50rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px var(--primary);
+}
+
+.projects .project-desc {
+    width: 40%;
+    /* border: 1px solid pink; */
+}
+
+.project-desc a {
+    margin-right: 10rem;
+    position: relative;
+    top: 10.5rem;
 }
 
